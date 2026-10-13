@@ -5,7 +5,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'
-model: auto
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
